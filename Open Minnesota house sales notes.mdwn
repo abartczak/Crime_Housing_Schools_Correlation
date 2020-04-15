@@ -1,0 +1,28 @@
+Open Minnesota house sales database notes
+
+Field Description
+SALE_ID: Sale unique identifier
+ECRV: MN Department of Revenue Sale ID (not all parcels have an ECRV Id)
+SALE_DATE: Date parcel sold
+EXCLUDED_FROM_RATIO_STUDY: Yes/No. Excluded from MN Department of Revenue sales ratio study
+PIN: Hennepin County Property ID
+NUM_PARCELS_IN_SALE: Count of properties included in the sale
+FORMATTED_ADDRESS: Property physical address
+LAND_SALE: Yes/No. Sale was of
+a vacant lot or of a building to be torn down after the sale
+COMMUNITY_CD: Minneapolis community (unique code)
+COMMUNITY_DESC: Minneapolis community (text description)
+NBHD_CD: Minneapolis neighborhood (unique code)
+NBHD_DESC: Minneapolis neighborhood (text description)
+WARD: Minneapolis city council ward
+PROPTYPE_CD: Primary use of property (unique code)
+PROPTYPE_DESC: Primary use of property (text description)
+GRANTEE1: First grantee name
+GRANTEE2: Second grantee name (if applicable)
+GRANTOR1: Frist grantor name
+GRANTOR2: Second grantor name (if applicable)
+ADJ_SALE_PRICE: Gross Sale Price less personal property value, seller paid points and additional adjustments (if applicable)
+GROSS_SALE_PRICE: Deeded sale price
+DOWNPAYMENT: Mortgage down payment amount
+X: Parcel X Coordinate
+Y: Parcel Y Coordinate
